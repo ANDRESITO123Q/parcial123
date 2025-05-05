@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrar Invernadero</title>
+</head>
+<body>
+<div>
+  <br>
+  <table style="width: 100%; height: 40px; background-color: rgb(46 189 33);">
+    <tr>
+      <td style="width: 50px;">
+        <img src="https://images.vexels.com/media/users/3/157582/isolated/preview/e70b108c71209e15cdf1b1b3056a6dac-icono-de-hoja-suave-negro.png" width="40px" height="40px">
+      </td>
+      <td>
+        <p>vivero vital</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<form action="https://pagina4m.netlify.app/" method="get">
+<div style="height: 100%;">
+  <table>
+    <tr>
+      <td>
+        <table style="height: 100%;">
+          <tr>
+            <td>Nombre del invernadero</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="nombre_invernadero" value="invernadero los andes" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);"></td>
+          </tr>
+          <tr>
+            <td>Superficie (m²)</td>
+          </tr>
+          <tr>
+            <td><input type="number" name="superficie" value="1200" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);"></td>
+          </tr>
+          <tr>
+            <td>Tipo de cultivo</td>
+          </tr>
+          <tr>
+            <td>
+              <select name="tipo_cultivo" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);">
+                <option value="flores" selected>Flores</option>
+                <option value="hortalizas">Hortalizas</option>
+                <option value="frutas">Frutas</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Fecha de creación</td>
+          </tr>
+          <tr>
+            <td><input type="date" name="fecha_creacion" value="2021-03-10" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);"></td>
+          </tr>
+          <tr>
+            <td>Responsable del invernadero</td>
+          </tr>
+          <tr>
+            <td><input type="text" name="responsable" value="maria lopez" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);"></td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table>
+          <tr>
+            <td>Capacidad de producción (toneladas)</td>
+          </tr>
+          <tr>
+            <td><input type="number" name="capacidad" value="3500" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);"></td>
+          </tr>
+          <tr>
+            <td>Sistema de riego</td>
+          </tr>
+          <tr>
+            <td>
+              <select name="riego" style="width:100%; background-color: rgb(197, 222, 135); border: 1px solid rgb(78, 154, 2);">
+                <option value="manual">Manual</option>
+                <option value="automatizado" selected>Automatizado</option>
+                <option value="goteo">Por goteo</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+
+        <br><br>
+        <table>
+          <tr>
+            <td><button type="submit" style="border: 1px solid; border-radius: 70px; background-color: chartreuse;">Guardar</button></td>
+            <td><button type="reset" style="border: 1px solid; border-radius: 70px; background-color: crimson; color:white;">Cancelar</button></td>
+          </tr>
+        </table>
+
+      </td>
+
+    <td>
+      <img src="https://media.istockphoto.com/id/667735542/vector/isometric-greenhouse-with-glass-walls-foundations-gable-roof-garden-bed.jpg?s=2048x2048&w=is&k=20&c=zqvuk8xnLWvCzU3n7qJQ8x3yZOsgRX5YM4vjv4AyofI=" height="400" width="390">
+    </td>
+    </tr>
+  </table>
+</div>
+
+<table style="background-color: hsl(54, 100%, 64%); width: 100%; height: 85px; position: relative; top: 250px;">
+  <tr>
+    <td style="position: absolute; margin-left: 1400px; margin-top: 25px;">
+      Registrar invernadero
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
